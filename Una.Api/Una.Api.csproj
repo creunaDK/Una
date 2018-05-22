@@ -10,7 +10,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.WebHooks.Receivers.Slack" Version="1.0.0-preview2-final" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+    <PackageReference Include="Slack.Webhooks" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
