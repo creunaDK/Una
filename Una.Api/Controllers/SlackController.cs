@@ -7,7 +7,7 @@ namespace Una.Api.Controllers
     public class SlackController : Controller
     {
         [HttpPost]
-        public string Post([FromBody]SlackVerificationMessage value)
+        public string Post([FromBody]SlackEventWrapper value)
         {
             return value.Challenge;
         }
